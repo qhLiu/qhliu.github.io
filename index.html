@@ -77,11 +77,11 @@
 				<div class="tips-box hide">
 					<div class="tips-arrow"></div>
 					<ul class="tips-inner">
-						<li>Menu</li>
-						<li>Tags</li>
+						<li>菜单</li>
+						<li>标签</li>
 						
 						
-						<li>Über</li>
+						<li>关于我</li>
 						
 					</ul>
 				</div>
@@ -212,13 +212,13 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="本教程所针对的是windows用户。"><a href="#本教程所针对的是windows用户。" class="headerlink" title="本教程所针对的是windows用户。"></a>本教程所针对的是windows用户。</h3><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><figure class="highlight elixir"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$ </span>hexo g <span class="comment">#完整命令为hexo generate,用于生成静态文件</span></div><div class="line"><span class="variable">$ </span>hexo s <span class="comment">#完整命令为hexo server,用于启动服务器，主要用来本地预览</span></div><div class="line"><span class="variable">$ </span>hexo d <span class="comment">#完整命令为hexo deploy,用于将本地文件发布到github上</span></div><div class="line"><span class="variable">$ </span>hexo n <span class="comment">#完整命令为hexo new,用于新建一篇文章</span></div></pre></td></tr></table></figure>
-<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-<span class="keyword">cli</span> -g</div></pre></td></tr></table></figure>
-<p>如果命令无法执行，可以尝试更换npm源<br><figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ <span class="built_in">npm</span> install -g cnpm --registry=https:<span class="regexp">//</span>registry.<span class="built_in">npm</span>.taobao.org</div></pre></td></tr></table></figure></p>
+        <h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h3 id="本教程所针对的是windows用户。"><a href="#本教程所针对的是windows用户。" class="headerlink" title="本教程所针对的是windows用户。"></a>本教程所针对的是windows用户。</h3><h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ hexo g #完整命令为hexo generate,用于生成静态文件</div><div class="line">$ hexo s #完整命令为hexo server,用于启动服务器，主要用来本地预览</div><div class="line">$ hexo d #完整命令为hexo deploy,用于将本地文件发布到github上</div><div class="line">$ hexo n #完整命令为hexo new,用于新建一篇文章</div></pre></td></tr></table></figure>
+<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div></pre></td></tr></table></figure>
+<p>如果命令无法执行，可以尝试更换npm源<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></div></pre></td></tr></table></figure></p>
 <p>新建一个文件夹，比如在D盘创建了blog文件夹，在blog文件夹内右键打开Git Base Here<br>执行hexo init<br>npm install<br>hexo g<br>hexo s<br>浏览器输入<a href="http://localhost:4000/即可浏览" target="_blank" rel="external">http://localhost:4000/即可浏览</a><br>记住关闭Server是Ctrl+c</p>
-<p>如果在使用的过程中，遇到以下的错误<br><figure class="highlight ada"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ERROR Deployer <span class="keyword">not</span> found : <span class="type">git</span>/github</div></pre></td></tr></table></figure></p>
-<p>则运行以下命令，或者你直接先运行这个命令更好。<br><figure class="highlight elixir"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="variable">$ </span>npm install hexo-deployer-git --save</div><div class="line"><span class="variable">$ </span>hexo g</div><div class="line"><span class="variable">$ </span>hexo d</div></pre></td></tr></table></figure></p>
-<h3 id="部署本地文件到github"><a href="#部署本地文件到github" class="headerlink" title="部署本地文件到github"></a>部署本地文件到github</h3><p>编辑blog文件夹下的_config.yml文件<br>在_config.yml最下方，添加如下配置<br><figure class="highlight less"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">deploy</span>:</div><div class="line">  <span class="attribute">type</span>: git</div><div class="line">  <span class="attribute">repository</span>: <span class="attribute">https</span>:<span class="comment">//github.com/qhLiu/qhliu.github.io.git</span></div><div class="line">  <span class="attribute">branch</span>: master</div></pre></td></tr></table></figure></p>
+<p>如果在使用的过程中，遇到以下的错误<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ERROR Deployer not found : git/github</div></pre></td></tr></table></figure></p>
+<p>则运行以下命令，或者你直接先运行这个命令更好。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div><div class="line">$ hexo g</div><div class="line">$ hexo d</div></pre></td></tr></table></figure></p>
+<h3 id="部署本地文件到github"><a href="#部署本地文件到github" class="headerlink" title="部署本地文件到github"></a>部署本地文件到github</h3><p>编辑blog文件夹下的_config.yml文件<br>在hexo目录下的_config.yml最下方，添加如下配置<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repository: https:<span class="comment">//github.com/qhLiu/qhliu.github.io.git</span></div><div class="line">  branch: master</div></pre></td></tr></table></figure></p>
 <p>配置文件中任何’:’后面都是带有一个空格的</p>
 
       
@@ -227,6 +227,10 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/杂谈/">杂谈</a></li></ul>
+	</div>
+
       
 
       
