@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://qhliu.github.io/2016/08/01/hexo-install/</loc>
+    
+    <lastmod>2016-08-04T10:45:38.444Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://qhliu.github.io/2016/08/03/hexo-welcome/</loc>
+    
+    <lastmod>2016-08-03T10:23:55.641Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://qhliu.github.io/baidu_verify_0hREw33lUO.html</loc>
     
     <lastmod>2016-08-03T07:50:23.228Z</lastmod>
@@ -12,20 +26,6 @@
     <loc>http://qhliu.github.io/google0226bf41cece3ede.html</loc>
     
     <lastmod>2016-08-03T07:50:06.954Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://qhliu.github.io/2016/07/29/hexo-guide/</loc>
-    
-    <lastmod>2016-08-02T09:38:46.520Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://qhliu.github.io/2016/07/28/hello-world/</loc>
-    
-    <lastmod>2016-08-02T01:32:56.048Z</lastmod>
     
   </url>
   

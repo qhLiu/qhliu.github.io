@@ -3,15 +3,30 @@
 
 
     
-    
-    
   <url>
-    <loc>http://qhliu.github.io/2016/07/29/hexo-guide/</loc>
-    <lastmod>2016-08-02T09:38:46.520Z</lastmod>
+    <loc>http://qhliu.github.io/2016/08/01/hexo-install/</loc>
+    <lastmod>2016-08-04T10:45:38.444Z</lastmod>
     <data>
         <display>
-        <title>使用Hexo搭建个人博客</title>
-        <pubTime>2016-07-29T05:15:41.045Z</pubTime>
+        <title>使用Hexo3+GitHub搭建个人博客</title>
+        <pubTime>2016-08-01T02:00:00.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://qhliu.github.io/2016/08/03/hexo-welcome/</loc>
+    <lastmod>2016-08-03T10:23:55.641Z</lastmod>
+    <data>
+        <display>
+        <title>hexo-welcome</title>
+        <pubTime>2016-08-03T10:23:22.000Z</pubTime>
         
         <tag>杂谈</tag>
          
@@ -22,20 +37,5 @@
     </url>
 
     
-  <url>
-    <loc>http://qhliu.github.io/2016/07/28/hello-world/</loc>
-    <lastmod>2016-08-02T01:32:56.048Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2016-07-28T09:48:41.719Z</pubTime>
-        
-        <tag>杂谈</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
+    
 </urlset>
