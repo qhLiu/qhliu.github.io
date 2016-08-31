@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://qhliu.github.io/"/>
-  <updated>2016-08-03T10:23:55.641Z</updated>
+  <updated>2016-08-31T10:03:45.971Z</updated>
   <id>http://qhliu.github.io/</id>
   
   <author>
@@ -20,20 +20,20 @@
     <link href="http://qhliu.github.io/2016/08/03/hexo-welcome/"/>
     <id>http://qhliu.github.io/2016/08/03/hexo-welcome/</id>
     <published>2016-08-03T10:23:22.000Z</published>
-    <updated>2016-08-03T10:23:55.641Z</updated>
+    <updated>2016-08-31T10:03:45.971Z</updated>
     
-    <content type="html"><![CDATA[<p>我很喜欢这种色调。<br>啦啦啦啦啦啦啦啦。</p>
+    <content type="html"><![CDATA[<p>梦想<br>还是要有的，<br>万一<br>实现了呢？</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;我很喜欢这种色调。&lt;br&gt;啦啦啦啦啦啦啦啦。&lt;/p&gt;
+      &lt;p&gt;梦想&lt;br&gt;还是要有的，&lt;br&gt;万一&lt;br&gt;实现了呢？&lt;/p&gt;
 
     
     </summary>
     
     
-      <category term="杂谈" scheme="http://qhliu.github.io/tags/%E6%9D%82%E8%B0%88/"/>
+      <category term="随笔" scheme="http://qhliu.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
@@ -42,31 +42,30 @@
     <link href="http://qhliu.github.io/2016/08/01/hexo-install/"/>
     <id>http://qhliu.github.io/2016/08/01/hexo-install/</id>
     <published>2016-08-01T02:00:00.000Z</published>
-    <updated>2016-08-04T10:45:38.444Z</updated>
+    <updated>2016-08-31T10:38:43.898Z</updated>
     
-    <content type="html"><![CDATA[<p>一直以来想写点东西记录自己的点点滴滴，却发现没有比较适合个人的博客，就萌发了自己要搭建一个属于自己的博客的想法，然后，不小心就遇见了hexo。接下来又大致看了她的文档，感觉使用起来很简单，只用几条命令即可。</p>
+    <content type="html"><![CDATA[<p>一直以来想写点东西记录自己的点点滴滴，却发现没有比较适合个人的博客，就萌发了自己要搭建一个属于自己的博客的想法，然后，不小心就遇见了hexo。接下来大致看了她的文档，感觉使用起来很简单，只要几条命令即可。</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$ hexo init &lt;folder&gt;</div><div class="line">$ cd &lt;folder&gt;</div><div class="line">$ hexo <span class="keyword">new</span> <span class="string">"name"</span></div><div class="line">$ hexo generate</div><div class="line">$ hexo server</div><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<h1 id="Hexo介绍"><a href="#Hexo介绍" class="headerlink" title="Hexo介绍"></a>Hexo介绍</h1><p><a href="https://hexo.io/" target="_blank" rel="external">Hexo</a></p>
-<p>hexo出自台湾大学生<a href="https://twitter.com/tommy351" target="_blank" rel="external">SkyArrow</a>之手，是一个基于Node.js的静态博客框架。</p>
-<p>官网强调了hexo的四大特点：</p>
-<ul>
-<li>极速生成静态页面</li>
-<li>支持Markdown</li>
-<li>一键部署博客</li>
-<li>有丰富的插件支持</li>
-</ul>
-<p>下面就开始部署hexo，看看她到底有牛吧。hexo依赖于<code>Node.js</code>和<code>Git</code>，所以这两个必须已经安装。<br><a id="more"></a></p>
-<h2 id="Hexo简单部署"><a href="#Hexo简单部署" class="headerlink" title="Hexo简单部署"></a>Hexo简单部署</h2><p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a></p>
+<a id="more"></a>
+<h1 id="Hexo介绍"><a href="#Hexo介绍" class="headerlink" title="Hexo介绍"></a>Hexo介绍</h1><p><a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>是一个基于Node.js的静态博客，可以方便的生成静态网页托管在github上，出自台湾大学生<a href="https://github.com/tommy351/hexo" target="_blank" rel="external">@tommy351</a>之手。</p>
+<blockquote>
+<p>快速、简单且功能强大的 Node.js 博客框架<br>A fast, simple &amp; powerful blog framework, powered by Node.js</p>
+</blockquote>
+<p>下面就开始部署hexo，hexo依赖于<code>Node.js</code>和<code>Git</code>，所以这两个必须已经安装。</p>
+<h2 id="Hexo环境部署"><a href="#Hexo环境部署" class="headerlink" title="Hexo环境部署"></a>Hexo环境部署</h2><p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a></p>
 <p><a href="https://git-scm.com/" target="_blank" rel="external">Git</a></p>
-<h3 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h3><p>打开Git Bash<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div></pre></td></tr></table></figure></p>
-<p>如果上述命令无法执行，可以尝试更换npm源再执行<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></div></pre></td></tr></table></figure></p>
-<p>然后用hexo init命令初始化博客目录，初始化完成之后，目录结构如下：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">~ tree -L <span class="number">1</span> blog</div><div class="line">blog</div><div class="line">├── _config.yml</div><div class="line">├── package.json</div><div class="line">├── scaffolds</div><div class="line">├── source</div><div class="line">└── themes</div></pre></td></tr></table></figure></p>
-<h3 id="修改主题"><a href="#修改主题" class="headerlink" title="修改主题"></a>修改主题</h3><p>hexo默认主题不是特别好看，不过<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">Themes</a>里面列出了相当多不错的主题，我选择了<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">yilia</a>，然后对其进行了进一步的简化。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git clone https:<span class="comment">//github.com/litten/hexo-theme-yilia.git themes/yilia</span></div></pre></td></tr></table></figure></p>
+<h3 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h3><p>打开Git Bash。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div></pre></td></tr></table></figure></p>
+<p>如果上述命令无法执行，可以尝试更换npm源再执行。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></div></pre></td></tr></table></figure></p>
+<p>创建blog文件夹，<code>cd blog</code>，安装依赖包。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install</div></pre></td></tr></table></figure></p>
+<p>然后用<code>hexo init</code>命令初始化博客目录，初始化完成之后，目录结构如下：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">blog</div><div class="line">├── _config.yml</div><div class="line">├── package.json</div><div class="line">├── scaffolds</div><div class="line">├── source</div><div class="line">└── themes</div></pre></td></tr></table></figure></p>
+<h3 id="修改主题"><a href="#修改主题" class="headerlink" title="修改主题"></a>修改主题</h3><p>Hexo默认主题不是特别好看，不过<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">Themes</a>里面列出了相当多不错的主题，我选择了<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">yilia</a>。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git clone https:<span class="comment">//github.com/litten/hexo-theme-yilia.git themes/yilia</span></div></pre></td></tr></table></figure></p>
 <p>配置</p>
-<p>修改hexo根目录下的 <code>_config.yml</code> ： <code>theme: yilia</code></p>
-<h3 id="开始写博客了"><a href="#开始写博客了" class="headerlink" title="开始写博客了"></a>开始写博客了</h3><p>使用下面的命令新建文章，文章会自动生成在<code>source/_posts/</code>里面。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo <span class="keyword">new</span> [layout] <span class="string">"blog_name"</span></div></pre></td></tr></table></figure></p>
-<p>我们可以在<code>scaffolds</code>里面设置生成新博客的模板，同时你也可以编辑现有的layout，比如post布局的模板<code>post.md</code>：<br><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">title: &#123;&#123; blog_name &#125;&#125; #文章标题</div><div class="line">date: &#123;&#123; date &#125;&#125; #发表日期</div><div class="line">tags:</div><div class="line"> [博客，文章] #文章标签</div></pre></td></tr></table></figure></p>
-<p>我想添加category，为避免每次手工输入，只需要修改这个文件添加一行，如下：<br><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">title: &#123;&#123; blog_name &#125;&#125; #文章标题</div><div class="line">date: &#123;&#123; date &#125;&#125; #发表日期</div><div class="line">category:</div><div class="line">tags:</div><div class="line"> [博客，文章] #文章标签</div></pre></td></tr></table></figure></p>
+<p>修改blog根目录下的 <code>_config.yml</code> ： <code>theme: yilia</code></p>
+<h3 id="开始写博客了"><a href="#开始写博客了" class="headerlink" title="开始写博客了"></a>开始写博客了</h3><p>使用<code>hexo new</code>命令来创建一篇新文章。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo <span class="keyword">new</span> [layout] <span class="string">"Hello"</span></div></pre></td></tr></table></figure></p>
+<p>然后会提示我们新建的文章所在目录：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">INFO  Created: ~\blog\source\_posts\Hello.md</div></pre></td></tr></table></figure></p>
+<p>我们用Markdown编辑器打开它，会看到里面已经有内容了：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: Hello</div><div class="line">date: <span class="number">2016</span><span class="number">-08</span><span class="number">-01</span> <span class="number">11</span>:<span class="number">11</span>:<span class="number">20</span></div><div class="line">tags:</div><div class="line">---</div></pre></td></tr></table></figure></p>
+<p>这是yilia主题默认的文章模板，我们可以在<code>scaffolds</code>目录里面设置生成新博客的模板，同时你也可以编辑现有的layout，比如<code>hexo new</code>命令默认就是layout：post布局的模板<code>post.md</code>：<br><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">title: &#123;&#123; blog_name &#125;&#125;		#文章标题</div><div class="line">date: &#123;&#123; date &#125;&#125;		#发表日期</div><div class="line">tags:</div><div class="line"> [博客，文章]			#文章标签</div></pre></td></tr></table></figure></p>
+<p>如果我想添加category，为避免每次手工输入，只需要修改这个文件添加一行，如下：<br><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">title: &#123;&#123; blog_name &#125;&#125;		#文章标题</div><div class="line">date: &#123;&#123; date &#125;&#125;		#发表日期</div><div class="line">category:</div><div class="line">tags:</div><div class="line"> [博客，文章]			#文章标签</div></pre></td></tr></table></figure></p>
 <p>这里文章有两种layout：</p>
 <table>
 <thead>
@@ -96,35 +95,25 @@
 </ul>
 <p>只需要在source目录添加404.html文件即可，文件内容为：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">layout: <span class="literal">false</span></div><div class="line">---</div><div class="line">&lt;!DOCTYPE html&gt;</div><div class="line">&lt;html lang="en"&gt;</div><div class="line">&lt;head&gt;</div><div class="line">    &lt;meta charset="UTF-8"&gt;</div><div class="line">    &lt;title&gt;宝贝，公益404带你们回家&lt;/title&gt;</div><div class="line">&lt;/head&gt;</div><div class="line">&lt;body&gt;</div><div class="line">    &lt;script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8"&gt;&lt;/script&gt;</div><div class="line">&lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure></p>
 <p>hexo默认会处理全部的markdown和html文件，如果不想让hexo处理你的文件，可以在文件头中加入layout：false。</p>
-<p>写完之后，生成静态网页<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure></p>
-<p>运行本地服务<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div><div class="line">INFO  Start processing</div><div class="line">INFO  Hexo is running at http:<span class="comment">//localhost:4000/. Press Ctrl+C to stop.</span></div></pre></td></tr></table></figure></p>
-<p>hexo写文章的内容可以看官方文档：<a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Create a New Post</a>。<br>hexo中还提供了其他的命令，可以看<a href="http://hexo.io/docs/commands.html" target="_blank" rel="external">Commands</a>。</p>
-<h3 id="部署到GitHub"><a href="#部署到GitHub" class="headerlink" title="部署到GitHub"></a>部署到GitHub</h3><p>编辑blog目录下的_config.yml文件，推荐Sublime Text</p>
-<p>在_config.yml文件最下方，添加如下配置(配置文件中所有<code>:</code>后面都带有一个空格)<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repository: https:<span class="comment">//github.com/qhLiu/qhliu.github.io.git</span></div><div class="line">  branch: master</div></pre></td></tr></table></figure></p>
+<p>写完之后，生成静态网页。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure></p>
+<p>运行本地服务。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div><div class="line">INFO  Start processing</div><div class="line">INFO  Hexo is running at http:<span class="comment">//localhost:4000/. Press Ctrl+C to stop.</span></div></pre></td></tr></table></figure></p>
+<p>更多hexo写文章的内容可以看官方文档：<a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Create a New Post</a>。<br>hexo中还提供了其他的命令，可以看<a href="http://hexo.io/docs/commands.html" target="_blank" rel="external">Commands</a>。</p>
+<h3 id="部署到GitHub"><a href="#部署到GitHub" class="headerlink" title="部署到GitHub"></a>部署到GitHub</h3><p>编辑blog目录下的_config.yml文件，推荐Sublime Text。</p>
+<p>在_config.yml文件最下方，添加如下配置(配置文件中所有<code>:</code>后面都带有一个空格)：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repository: https:<span class="comment">//github.com/qhLiu/qhliu.github.io.git</span></div><div class="line">  branch: master</div></pre></td></tr></table></figure></p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo clean</div><div class="line">$ hexo generate</div><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>如果在使用的过程中，遇到以下的错误<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ERROR Deployer not found : git/github</div></pre></td></tr></table></figure></p>
-<p>则运行以下命令，或者你直接先运行这个命令更好<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure></p>
+<p>如果在使用的过程中，遇到以下的错误：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ERROR Deployer not found : git/github</div></pre></td></tr></table></figure></p>
+<p>则运行以下命令，或者你直接先运行这个命令更好。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;一直以来想写点东西记录自己的点点滴滴，却发现没有比较适合个人的博客，就萌发了自己要搭建一个属于自己的博客的想法，然后，不小心就遇见了hexo。接下来又大致看了她的文档，感觉使用起来很简单，只用几条命令即可。&lt;/p&gt;
+      &lt;p&gt;一直以来想写点东西记录自己的点点滴滴，却发现没有比较适合个人的博客，就萌发了自己要搭建一个属于自己的博客的想法，然后，不小心就遇见了hexo。接下来大致看了她的文档，感觉使用起来很简单，只要几条命令即可。&lt;/p&gt;
 &lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo init &amp;lt;folder&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ cd &amp;lt;folder&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ hexo &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ hexo generate&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ hexo server&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ hexo deploy&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h1 id=&quot;Hexo介绍&quot;&gt;&lt;a href=&quot;#Hexo介绍&quot; class=&quot;headerlink&quot; title=&quot;Hexo介绍&quot;&gt;&lt;/a&gt;Hexo介绍&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;hexo出自台湾大学生&lt;a href=&quot;https://twitter.com/tommy351&quot;&gt;SkyArrow&lt;/a&gt;之手，是一个基于Node.js的静态博客框架。&lt;/p&gt;
-&lt;p&gt;官网强调了hexo的四大特点：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;极速生成静态页面&lt;/li&gt;
-&lt;li&gt;支持Markdown&lt;/li&gt;
-&lt;li&gt;一键部署博客&lt;/li&gt;
-&lt;li&gt;有丰富的插件支持&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;下面就开始部署hexo，看看她到底有牛吧。hexo依赖于&lt;code&gt;Node.js&lt;/code&gt;和&lt;code&gt;Git&lt;/code&gt;，所以这两个必须已经安装。&lt;br&gt;
     
     </summary>
     
     
-      <category term="Hexo" scheme="http://qhliu.github.io/tags/Hexo/"/>
+      <category term="hexo" scheme="http://qhliu.github.io/tags/hexo/"/>
     
   </entry>
   
