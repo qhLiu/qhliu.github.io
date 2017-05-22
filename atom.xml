@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://qhliu.github.io/"/>
-  <updated>2016-08-31T10:03:45.971Z</updated>
+  <updated>2017-05-19T08:15:58.383Z</updated>
   <id>http://qhliu.github.io/</id>
   
   <author>
@@ -16,11 +16,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>log4j2使用</title>
+    <link href="http://qhliu.github.io/2017/05/19/log4j-start/"/>
+    <id>http://qhliu.github.io/2017/05/19/log4j-start/</id>
+    <published>2017-05-19T09:00:00.000Z</published>
+    <updated>2017-05-19T08:15:58.383Z</updated>
+    
+    <content type="html"><![CDATA[<p>欢迎来到Log4j2 !</p>
+<p><a href="https://zh.wikipedia.org/wiki/Log4j" target="_blank" rel="external">log4j2</a>维基百科</p>
+<p><a href="http://logging.apache.org/log4j/2.x/manual/index.html" target="_blank" rel="external">log4j2</a>介绍</p>
+<p><a href="http://logging.apache.org/log4j/2.x/performance.html" target="_blank" rel="external">log4j2</a>性能</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;欢迎来到Log4j2 !&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/Log4j&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;log4j2&lt;/a&gt;维基百科&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://lo
+    
+    </summary>
+    
+    
+      <category term="log4j2" scheme="http://qhliu.github.io/tags/log4j2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo-welcome</title>
     <link href="http://qhliu.github.io/2016/08/03/hexo-welcome/"/>
     <id>http://qhliu.github.io/2016/08/03/hexo-welcome/</id>
     <published>2016-08-03T10:23:22.000Z</published>
-    <updated>2016-08-31T10:03:45.971Z</updated>
+    <updated>2017-05-22T09:18:58.902Z</updated>
     
     <content type="html"><![CDATA[<p>梦想<br>还是要有的，<br>万一<br>实现了呢？</p>
 ]]></content>
@@ -42,22 +68,35 @@
     <link href="http://qhliu.github.io/2016/08/01/hexo-install/"/>
     <id>http://qhliu.github.io/2016/08/01/hexo-install/</id>
     <published>2016-08-01T02:00:00.000Z</published>
-    <updated>2016-08-31T10:38:43.898Z</updated>
+    <updated>2017-05-22T07:47:43.422Z</updated>
     
-    <content type="html"><![CDATA[<p>一直以来想写点东西记录自己的点点滴滴，却发现没有比较适合个人的博客，就萌发了自己要搭建一个属于自己的博客的想法，然后，不小心就遇见了hexo。接下来大致看了她的文档，感觉使用起来很简单，只要几条命令即可。</p>
+    <content type="html"><![CDATA[<p>一直以来想写点东西记录自己的点点滴滴，却发现没有比较适合的，就萌发了自己要搭建一个属于自己的博客的想法，然后，一不小心就遇见了<a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>。</p>
+<h1 id="什么是Hexo？"><a href="#什么是Hexo？" class="headerlink" title="什么是Hexo？"></a>什么是Hexo？</h1><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$ hexo init &lt;folder&gt;</div><div class="line">$ cd &lt;folder&gt;</div><div class="line">$ hexo <span class="keyword">new</span> <span class="string">"name"</span></div><div class="line">$ hexo generate</div><div class="line">$ hexo server</div><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 <a id="more"></a>
-<h1 id="Hexo介绍"><a href="#Hexo介绍" class="headerlink" title="Hexo介绍"></a>Hexo介绍</h1><p><a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>是一个基于Node.js的静态博客，可以方便的生成静态网页托管在github上，出自台湾大学生<a href="https://github.com/tommy351/hexo" target="_blank" rel="external">@tommy351</a>之手。</p>
-<blockquote>
-<p>快速、简单且功能强大的 Node.js 博客框架<br>A fast, simple &amp; powerful blog framework, powered by Node.js</p>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>安装 Hexo 只需几分钟时间，若您在安装过程中遇到问题或无法找到解决方式，<a href="https://www.google.com.hk/?gws_rd=cr,ssl" target="_blank" rel="external">Google</a>一下。</p>
+<h1 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h1><p>安装 Hexo 相当简单。然而在安装前，须检查电脑中是否已安装下列应用程序：</p>
+<ul>
+<li><p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a></p>
+</li>
+<li><p><a href="https://git-scm.com/" target="_blank" rel="external">Git</a></p>
+</li>
+</ul>
+<p>如果您已经成功的安装，那么恭喜您！接下来只需要使用npm即可完成Hexo的安装。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div></pre></td></tr></table></figure></p>
+<h1 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h1><ul>
+<li>Windows：下载并安装<a href="https://git-scm.com/download/win" target="_blank" rel="external">git</a>.<blockquote>
+<p>Windows 用户<br>由于众所周知的原因，从上面的链接下载git for windows最好翻墙下载，不然速度十分艰难。<br>也可以参考<a href="https://github.com/waylau/git-for-win" target="_blank" rel="external">这个页面</a>，收录了存储于百度云的下载地址。</p>
 </blockquote>
-<p>下面就开始部署hexo，hexo依赖于<code>Node.js</code>和<code>Git</code>，所以这两个必须已经安装。</p>
-<h2 id="Hexo环境部署"><a href="#Hexo环境部署" class="headerlink" title="Hexo环境部署"></a>Hexo环境部署</h2><p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a></p>
-<p><a href="https://git-scm.com/" target="_blank" rel="external">Git</a></p>
-<h3 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h3><p>打开Git Bash。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div></pre></td></tr></table></figure></p>
+</li>
+</ul>
+<h1 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h1><p>安装 Node.js 的最佳方式是使用 nvm。<br>cURL：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ curl https:<span class="comment">//raw.github.com/creationix/nvm/master/install.sh | sh</span></div></pre></td></tr></table></figure></p>
+<p>Wget：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ wget -qO- https:<span class="comment">//raw.github.com/creationix/nvm/master/install.sh | sh</span></div></pre></td></tr></table></figure></p>
+<p>安装完成后，重启终端并执行下列命令即可安装 Node.js。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ nvm install stable</div></pre></td></tr></table></figure></p>
+<p>或者您也可以下载并安装<a href="http://nodejs.org/" target="_blank" rel="external">Node.js</a>.</p>
+<h1 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h1><p>所有必备的应用程序安装完成后，即可使用npm安装Hexo。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g</div></pre></td></tr></table></figure></p>
 <p>如果上述命令无法执行，可以尝试更换npm源再执行。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g cnpm --registry=https:<span class="comment">//registry.npm.taobao.org</span></div></pre></td></tr></table></figure></p>
-<p>创建blog文件夹，<code>cd blog</code>，安装依赖包。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install</div></pre></td></tr></table></figure></p>
-<p>然后用<code>hexo init</code>命令初始化博客目录，初始化完成之后，目录结构如下：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">blog</div><div class="line">├── _config.yml</div><div class="line">├── package.json</div><div class="line">├── scaffolds</div><div class="line">├── source</div><div class="line">└── themes</div></pre></td></tr></table></figure></p>
+<p>安装Hexo完成后，执行以下命令，Hexo将会在blog文件夹中新建所需要的文件。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo init blog</div><div class="line">$ cd blog</div><div class="line">$ npm install</div></pre></td></tr></table></figure></p>
+<p>新建完成后，blog文件夹的目录如下：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">blog</div><div class="line">├── _config.yml</div><div class="line">├── package.json</div><div class="line">├── scaffolds</div><div class="line">├── source</div><div class="line">   ├── _drafts</div><div class="line">   ├── _posts</div><div class="line">└── themes</div></pre></td></tr></table></figure></p>
 <h3 id="修改主题"><a href="#修改主题" class="headerlink" title="修改主题"></a>修改主题</h3><p>Hexo默认主题不是特别好看，不过<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">Themes</a>里面列出了相当多不错的主题，我选择了<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">yilia</a>。<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git clone https:<span class="comment">//github.com/litten/hexo-theme-yilia.git themes/yilia</span></div></pre></td></tr></table></figure></p>
 <p>配置</p>
 <p>修改blog根目录下的 <code>_config.yml</code> ： <code>theme: yilia</code></p>
@@ -107,7 +146,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;一直以来想写点东西记录自己的点点滴滴，却发现没有比较适合个人的博客，就萌发了自己要搭建一个属于自己的博客的想法，然后，不小心就遇见了hexo。接下来大致看了她的文档，感觉使用起来很简单，只要几条命令即可。&lt;/p&gt;
+      &lt;p&gt;一直以来想写点东西记录自己的点点滴滴，却发现没有比较适合的，就萌发了自己要搭建一个属于自己的博客的想法，然后，一不小心就遇见了&lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;。&lt;/p&gt;
+&lt;h1 id=&quot;什么是Hexo？&quot;&gt;&lt;a href=&quot;#什么是Hexo？&quot; class=&quot;headerlink&quot; title=&quot;什么是Hexo？&quot;&gt;&lt;/a&gt;什么是Hexo？&lt;/h1&gt;&lt;p&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。&lt;/p&gt;
 &lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ hexo init &amp;lt;folder&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ cd &amp;lt;folder&amp;gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ hexo &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;string&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ hexo generate&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ hexo server&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;$ hexo deploy&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>

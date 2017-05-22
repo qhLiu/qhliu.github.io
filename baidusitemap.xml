@@ -4,8 +4,25 @@
 
     
   <url>
+    <loc>http://qhliu.github.io/2016/08/03/hexo-welcome/</loc>
+    <lastmod>2017-05-22T09:18:58.902Z</lastmod>
+    <data>
+        <display>
+        <title>hexo-welcome</title>
+        <pubTime>2016-08-03T10:23:22.000Z</pubTime>
+        
+        <tag>随笔</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://qhliu.github.io/2016/08/01/hexo-install/</loc>
-    <lastmod>2016-08-31T10:38:43.898Z</lastmod>
+    <lastmod>2017-05-22T07:47:43.422Z</lastmod>
     <data>
         <display>
         <title>使用Hexo3+GitHub搭建个人博客</title>
@@ -21,14 +38,14 @@
 
     
   <url>
-    <loc>http://qhliu.github.io/2016/08/03/hexo-welcome/</loc>
-    <lastmod>2016-08-31T10:03:45.971Z</lastmod>
+    <loc>http://qhliu.github.io/2017/05/19/log4j-start/</loc>
+    <lastmod>2017-05-19T08:15:58.383Z</lastmod>
     <data>
         <display>
-        <title>hexo-welcome</title>
-        <pubTime>2016-08-03T10:23:22.000Z</pubTime>
+        <title>log4j2使用</title>
+        <pubTime>2017-05-19T09:00:00.000Z</pubTime>
         
-        <tag>随笔</tag>
+        <tag>log4j2</tag>
          
          
            
